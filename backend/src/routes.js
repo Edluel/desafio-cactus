@@ -7,6 +7,7 @@ const findByStatusController = require("./controllers/client/findByStatus");
 const findByInternetStatusController = require("./controllers/client/findByInternetStatus");
 const findByIpController = require("./controllers/client/findByIp");
 const findByConcentratorController = require("./controllers/client/findByConcentrator");
+const findByDisconnectReasonController = require("./controllers/client/findByDisconnectReason");
 
 const routes = Router();
 
@@ -24,6 +25,8 @@ routes.get("/findByInternet/:internetStatus", findByInternetStatusController.han
 routes.get("/findByIp/:ip", findByIpController.handle);
 //rota para buscar concentradores por nome
 routes.get("/findByConcentrator/:concentrator", findByConcentratorController.handle);
+//rota para buscar clientes por motivo de desconexao
+routes.get("/findByDisconnectReason/:reason", findByDisconnectReasonController.handle);
 
 
 module.exports = routes;
