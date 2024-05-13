@@ -10,7 +10,10 @@ module.exports = {
       logger.info("successfully found clients");
       res.status(200).json(clients);
     } catch (error) {
-      res.status(500).json({ error: "client not found" });
+      if (!error.path) {
+        error.path = "src/controllers/client/findByName.js";
+      }
+      throw error;
     }
   },
 };
