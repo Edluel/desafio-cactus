@@ -11,6 +11,7 @@ const findByDisconnectReasonController = require("./controllers/client/findByDis
 const findByPopController = require("./controllers/client/findByPop");
 const findByCityController = require("./controllers/client/findByCity");
 const findByNeighborhoodController = require("./controllers/client/findByNeighborhood");
+const findByContractPlanController = require("./controllers/client/findByContractPlan");
 
 
 const routes = Router();
@@ -37,6 +38,8 @@ routes.get("/findByPop/:pop", findByPopController.handle);
 routes.get("/findByCity/:city", findByCityController.handle);
 //rota para buscar clientes por bairro
 routes.get("/findByNeighborhood/:neighborhood", findByNeighborhoodController.handle);
+//rota para buscar clientes por plano de contrato
+routes.get("/findByContractPlan/:plan", findByContractPlanController.handle);
 
 
 module.exports = routes;
