@@ -13,7 +13,7 @@ module.exports = {
         // Registra uma mensagem de erro no log
         logger.error("client not found");
         // Retorna uma resposta de erro
-        return res.status(404).json({ error: "client not found" });
+        res.status(404).json({ error: "client not found" });
       }
 
       // Registra uma mensagem de sucesso no log

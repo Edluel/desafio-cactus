@@ -11,17 +11,17 @@ module.exports = {
       
       if (result === "client not found") {
         logger.error("client not found");
-        return res.status(404).json({ error: "client not found" });
+         res.status(404).json({ error: "client not found" });
       }
 
       logger.info("successfully updated client");
-      return res.status(200).json({ message: "client successfully updated" });
+       res.status(200).json({ message: "client successfully updated" });
 
     } catch (error) {
       if (!error.path) {
         error.path = "src/controllers/client/updateClient.js";
       }
       throw error;
-    }
+    } 
   },
 };

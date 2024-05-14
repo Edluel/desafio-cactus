@@ -13,7 +13,7 @@ module.exports = {
       }
 
       logger.info("successfully deleted client");
-      return res.status(200).json({ message: "client successfully deleted" });
+      res.status(200).json({ message: "client successfully deleted" });
 
     } catch (error) {
       if (!error.path) {

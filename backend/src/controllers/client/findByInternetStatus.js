@@ -11,7 +11,7 @@ module.exports = {
       const number = parseInt(internetStatus);
       if (!(number >= 0 && number <= 6)) {
         logger.error("status not found");
-        return res.status(404).json({ error: "status variam de 0 a 6" });
+        res.status(404).json({ error: "status variam de 0 a 6" });
       }
 
       logger.info("successfully found client");
