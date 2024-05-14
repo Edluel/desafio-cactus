@@ -15,6 +15,8 @@ const findByContractPlanController = require("./controllers/client/findByContrac
 const findByConnectionStartController = require("./controllers/client/findByConnectionStart");
 const findByConnectedTimeController = require("./controllers/client/findByConnectedTime");
 const findByDownloadConsumptionController = require("./controllers/client/findByDownloadConsumption");
+const findByUploadConsumptionController = require("./controllers/client/findByUploadConsumption");
+
 
 const routes = Router();
 
@@ -48,5 +50,8 @@ routes.get("/findByConnectionStart/:startDate/:endDate", findByConnectionStartCo
 routes.get("/findByConnectedTime/:choice/:duration", findByConnectedTimeController.handle);
 //rotas para buscar clientes por consumo de download
 routes.get("/findByDownloadConsumption/:choice/:consumption", findByDownloadConsumptionController.handle);
+//rotas para buscar clientes por consumo de upload
+routes.get("/findByUploadConsumption/:choice/:consumption", findByUploadConsumptionController.handle);
+
 
 module.exports = routes;
