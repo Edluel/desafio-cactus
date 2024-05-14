@@ -1,5 +1,5 @@
 const { Router } = require("express");
-
+//get
 const findManyClientesController = require("./controllers/client/findManyClientes");
 const findByIdController = require("./controllers/client/findById");
 const findByNameController = require("./controllers/client/findByName");
@@ -17,10 +17,15 @@ const findByConnectedTimeController = require("./controllers/client/findByConnec
 const findByDownloadConsumptionController = require("./controllers/client/findByDownloadConsumption");
 const findByUploadConsumptionController = require("./controllers/client/findByUploadConsumption");
 const findByPlanValueController = require("./controllers/client/findByPlanValue");
+//delete
+const deleteClientController = require("./controllers/client/deleteClient");
+//update
+const updateClientController = require("./controllers/client/updateClient");
+
 
 
 const routes = Router();
-
+  //get
 //rota para buscar todos os clientes
 routes.get("/findManyCliente", findManyClientesController.handle);
 //rota para buscar clientes por id
@@ -55,6 +60,12 @@ routes.get("/findByDownloadConsumption/:choice/:consumption", findByDownloadCons
 routes.get("/findByUploadConsumption/:choice/:consumption", findByUploadConsumptionController.handle);
 //rotas para buscar clientes por valor do plano
 routes.get("/findByPlanValue/:choice/:value", findByPlanValueController.handle);
-
+  
+  //delete
+//rota para deletar cliente baseado no id
+routes.delete("/deleteClient/:id", deleteClientController.handle);
+  //update
+//rota para atualizar cliente baseado no id
+routes.patch("/updateClient/:id", updateClientController.handle);
 
 module.exports = routes;
