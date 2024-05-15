@@ -68,3 +68,1651 @@
 09/05/2024 19:11:17.413 [[32minfo[39m]: successfully found clients
 09/05/2024 19:12:22.985 [[32minfo[39m]: successfully found clients
 11/05/2024 23:49:23.352 [[32minfo[39m]: successfully found clients
+12/05/2024 00:13:11.170 [[32minfo[39m]: successfully found clients
+12/05/2024 01:32:55.775 [[32minfo[39m]: successfully found clients
+12/05/2024 02:10:45.615 [[32minfo[39m]: successfully found clients
+12/05/2024 02:46:55.421 [[32minfo[39m]: successfully found clients
+12/05/2024 02:47:05.357 [[32minfo[39m]: successfully found clients
+12/05/2024 03:36:53.536 [[32minfo[39m]: successfully found clients
+12/05/2024 03:37:40.570 [[32minfo[39m]: successfully found clients
+12/05/2024 03:51:46.308 [[32minfo[39m]: successfully found clients
+12/05/2024 11:46:02.810 [[32minfo[39m]: successfully found clients
+12/05/2024 11:49:57.865 [[31merror[39m]: path: src/models/findById.js message: prisma.clientes.findOne is not a function
+12/05/2024 11:50:48.839 [[31merror[39m]: path: src/models/findById.js message: client is not defined
+12/05/2024 11:51:49.949 [[31merror[39m]: path: src/models/findById.js message: client is not defined
+12/05/2024 11:51:52.596 [[31merror[39m]: path: src/models/findById.js message: client is not defined
+12/05/2024 11:52:25.287 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 11:53:58.646 [[32minfo[39m]: successfully found clients
+12/05/2024 11:54:04.753 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:8:44
+
+  5 module.exports = {
+  6   async execute(id) {
+  7     try {
+→ 8       let clientes = await prisma.clientes.findUnique({
+            where: {
+              id: undefined,
+          ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+          ?   OR?: ClientesWhereInput[],
+          ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+          ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+          ?   ipConcentrador?: StringNullableFilter | String | Null,
+          ?   nomeConcentrador?: StringNullableFilter | String | Null,
+          ?   latitudeCliente?: StringNullableFilter | String | Null,
+          ?   longitudeCliente?: StringNullableFilter | String | Null,
+          ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+          ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+          ?   tempoConectado?: IntNullableFilter | Int | Null,
+          ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+          ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+          ?   motivoDesconexao?: StringNullableFilter | String | Null,
+          ?   popCliente?: StringNullableFilter | String | Null,
+          ?   nomeCliente?: StringNullableFilter | String | Null,
+          ?   enderecoCliente?: StringNullableFilter | String | Null,
+          ?   bairroCliente?: StringNullableFilter | String | Null,
+          ?   cidadeCliente?: StringNullableFilter | String | Null,
+          ?   planoContrato?: StringNullableFilter | String | Null,
+          ?   statusInternet?: IntNullableFilter | Int | Null,
+          ?   valorPlano?: FloatNullableFilter | Float | Null
+            }
+          })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 11:54:49.944 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:8:44
+
+  5 module.exports = {
+  6   async execute(id) {
+  7     try {
+→ 8       let clientes = await prisma.clientes.findUnique({
+            where: {
+              id: undefined,
+          ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+          ?   OR?: ClientesWhereInput[],
+          ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+          ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+          ?   ipConcentrador?: StringNullableFilter | String | Null,
+          ?   nomeConcentrador?: StringNullableFilter | String | Null,
+          ?   latitudeCliente?: StringNullableFilter | String | Null,
+          ?   longitudeCliente?: StringNullableFilter | String | Null,
+          ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+          ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+          ?   tempoConectado?: IntNullableFilter | Int | Null,
+          ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+          ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+          ?   motivoDesconexao?: StringNullableFilter | String | Null,
+          ?   popCliente?: StringNullableFilter | String | Null,
+          ?   nomeCliente?: StringNullableFilter | String | Null,
+          ?   enderecoCliente?: StringNullableFilter | String | Null,
+          ?   bairroCliente?: StringNullableFilter | String | Null,
+          ?   cidadeCliente?: StringNullableFilter | String | Null,
+          ?   planoContrato?: StringNullableFilter | String | Null,
+          ?   statusInternet?: IntNullableFilter | Int | Null,
+          ?   valorPlano?: FloatNullableFilter | Float | Null
+            }
+          })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 11:54:52.072 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:8:44
+
+  5 module.exports = {
+  6   async execute(id) {
+  7     try {
+→ 8       let clientes = await prisma.clientes.findUnique({
+            where: {
+              id: undefined,
+          ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+          ?   OR?: ClientesWhereInput[],
+          ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+          ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+          ?   ipConcentrador?: StringNullableFilter | String | Null,
+          ?   nomeConcentrador?: StringNullableFilter | String | Null,
+          ?   latitudeCliente?: StringNullableFilter | String | Null,
+          ?   longitudeCliente?: StringNullableFilter | String | Null,
+          ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+          ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+          ?   tempoConectado?: IntNullableFilter | Int | Null,
+          ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+          ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+          ?   motivoDesconexao?: StringNullableFilter | String | Null,
+          ?   popCliente?: StringNullableFilter | String | Null,
+          ?   nomeCliente?: StringNullableFilter | String | Null,
+          ?   enderecoCliente?: StringNullableFilter | String | Null,
+          ?   bairroCliente?: StringNullableFilter | String | Null,
+          ?   cidadeCliente?: StringNullableFilter | String | Null,
+          ?   planoContrato?: StringNullableFilter | String | Null,
+          ?   statusInternet?: IntNullableFilter | Int | Null,
+          ?   valorPlano?: FloatNullableFilter | Float | Null
+            }
+          })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 11:54:56.002 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 12:35:58.752 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 12:36:09.290 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 12:38:23.185 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 14:40:44.319 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 14:44:02.058 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 15:09:32.275 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 15:09:52.908 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 15:11:00.761 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 15:11:10.652 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 15:11:16.509 [[32minfo[39m]: Clientes encontrados com sucesso
+12/05/2024 15:12:54.828 [[32minfo[39m]: successfully found clients
+12/05/2024 15:15:06.404 [[32minfo[39m]: successfully found client
+12/05/2024 15:15:10.579 [[32minfo[39m]: successfully found client
+12/05/2024 15:15:53.731 [[32minfo[39m]: successfully found client
+12/05/2024 15:15:55.655 [[32minfo[39m]: successfully found client
+12/05/2024 15:16:01.822 [[32minfo[39m]: successfully found client
+12/05/2024 15:20:09.116 [[31merror[39m]: client not found
+12/05/2024 15:21:30.760 [[32minfo[39m]: successfully found clients
+12/05/2024 15:21:38.080 [[32minfo[39m]: successfully found client
+12/05/2024 15:21:40.890 [[31merror[39m]: client not found
+12/05/2024 15:27:56.751 [[32minfo[39m]: successfully found clients
+12/05/2024 15:28:27.952 [[32minfo[39m]: successfully found client
+12/05/2024 15:29:01.248 [[32minfo[39m]: successfully found client
+12/05/2024 16:51:44.814 [[32minfo[39m]: successfully found client
+12/05/2024 18:41:40.163 [[32minfo[39m]: successfully found client
+12/05/2024 18:49:05.062 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:9:44
+
+  6 async execute(id) {
+  7   try {
+  8     // busca o cliente pelo id
+→ 9     let clientes = await prisma.clientes.findUnique({
+          where: {
+            id: undefined,
+        ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+        ?   OR?: ClientesWhereInput[],
+        ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+        ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+        ?   ipConcentrador?: StringNullableFilter | String | Null,
+        ?   nomeConcentrador?: StringNullableFilter | String | Null,
+        ?   latitudeCliente?: StringNullableFilter | String | Null,
+        ?   longitudeCliente?: StringNullableFilter | String | Null,
+        ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+        ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+        ?   tempoConectado?: IntNullableFilter | Int | Null,
+        ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+        ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+        ?   motivoDesconexao?: StringNullableFilter | String | Null,
+        ?   popCliente?: StringNullableFilter | String | Null,
+        ?   nomeCliente?: StringNullableFilter | String | Null,
+        ?   enderecoCliente?: StringNullableFilter | String | Null,
+        ?   bairroCliente?: StringNullableFilter | String | Null,
+        ?   cidadeCliente?: StringNullableFilter | String | Null,
+        ?   planoContrato?: StringNullableFilter | String | Null,
+        ?   statusInternet?: IntNullableFilter | Int | Null,
+        ?   valorPlano?: FloatNullableFilter | Float | Null
+          }
+        })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 18:50:02.418 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:9:44
+
+  6 async execute(id) {
+  7   try {
+  8     // busca o cliente pelo id
+→ 9     let clientes = await prisma.clientes.findUnique({
+          where: {
+            id: undefined,
+        ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+        ?   OR?: ClientesWhereInput[],
+        ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+        ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+        ?   ipConcentrador?: StringNullableFilter | String | Null,
+        ?   nomeConcentrador?: StringNullableFilter | String | Null,
+        ?   latitudeCliente?: StringNullableFilter | String | Null,
+        ?   longitudeCliente?: StringNullableFilter | String | Null,
+        ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+        ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+        ?   tempoConectado?: IntNullableFilter | Int | Null,
+        ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+        ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+        ?   motivoDesconexao?: StringNullableFilter | String | Null,
+        ?   popCliente?: StringNullableFilter | String | Null,
+        ?   nomeCliente?: StringNullableFilter | String | Null,
+        ?   enderecoCliente?: StringNullableFilter | String | Null,
+        ?   bairroCliente?: StringNullableFilter | String | Null,
+        ?   cidadeCliente?: StringNullableFilter | String | Null,
+        ?   planoContrato?: StringNullableFilter | String | Null,
+        ?   statusInternet?: IntNullableFilter | Int | Null,
+        ?   valorPlano?: FloatNullableFilter | Float | Null
+          }
+        })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 18:50:54.632 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:9:44
+
+  6 async execute(id) {
+  7   try {
+  8     // busca o cliente pelo id
+→ 9     let clientes = await prisma.clientes.findUnique({
+          where: {
+            id: undefined,
+        ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+        ?   OR?: ClientesWhereInput[],
+        ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+        ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+        ?   ipConcentrador?: StringNullableFilter | String | Null,
+        ?   nomeConcentrador?: StringNullableFilter | String | Null,
+        ?   latitudeCliente?: StringNullableFilter | String | Null,
+        ?   longitudeCliente?: StringNullableFilter | String | Null,
+        ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+        ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+        ?   tempoConectado?: IntNullableFilter | Int | Null,
+        ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+        ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+        ?   motivoDesconexao?: StringNullableFilter | String | Null,
+        ?   popCliente?: StringNullableFilter | String | Null,
+        ?   nomeCliente?: StringNullableFilter | String | Null,
+        ?   enderecoCliente?: StringNullableFilter | String | Null,
+        ?   bairroCliente?: StringNullableFilter | String | Null,
+        ?   cidadeCliente?: StringNullableFilter | String | Null,
+        ?   planoContrato?: StringNullableFilter | String | Null,
+        ?   statusInternet?: IntNullableFilter | Int | Null,
+        ?   valorPlano?: FloatNullableFilter | Float | Null
+          }
+        })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 18:50:59.037 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:9:44
+
+  6 async execute(id) {
+  7   try {
+  8     // busca o cliente pelo id
+→ 9     let clientes = await prisma.clientes.findUnique({
+          where: {
+            id: undefined,
+        ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+        ?   OR?: ClientesWhereInput[],
+        ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+        ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+        ?   ipConcentrador?: StringNullableFilter | String | Null,
+        ?   nomeConcentrador?: StringNullableFilter | String | Null,
+        ?   latitudeCliente?: StringNullableFilter | String | Null,
+        ?   longitudeCliente?: StringNullableFilter | String | Null,
+        ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+        ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+        ?   tempoConectado?: IntNullableFilter | Int | Null,
+        ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+        ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+        ?   motivoDesconexao?: StringNullableFilter | String | Null,
+        ?   popCliente?: StringNullableFilter | String | Null,
+        ?   nomeCliente?: StringNullableFilter | String | Null,
+        ?   enderecoCliente?: StringNullableFilter | String | Null,
+        ?   bairroCliente?: StringNullableFilter | String | Null,
+        ?   cidadeCliente?: StringNullableFilter | String | Null,
+        ?   planoContrato?: StringNullableFilter | String | Null,
+        ?   statusInternet?: IntNullableFilter | Int | Null,
+        ?   valorPlano?: FloatNullableFilter | Float | Null
+          }
+        })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 18:51:10.358 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:9:44
+
+  6 async execute(id) {
+  7   try {
+  8     // busca o cliente pelo id
+→ 9     let clientes = await prisma.clientes.findUnique({
+          where: {
+            id: undefined,
+        ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+        ?   OR?: ClientesWhereInput[],
+        ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+        ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+        ?   ipConcentrador?: StringNullableFilter | String | Null,
+        ?   nomeConcentrador?: StringNullableFilter | String | Null,
+        ?   latitudeCliente?: StringNullableFilter | String | Null,
+        ?   longitudeCliente?: StringNullableFilter | String | Null,
+        ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+        ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+        ?   tempoConectado?: IntNullableFilter | Int | Null,
+        ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+        ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+        ?   motivoDesconexao?: StringNullableFilter | String | Null,
+        ?   popCliente?: StringNullableFilter | String | Null,
+        ?   nomeCliente?: StringNullableFilter | String | Null,
+        ?   enderecoCliente?: StringNullableFilter | String | Null,
+        ?   bairroCliente?: StringNullableFilter | String | Null,
+        ?   cidadeCliente?: StringNullableFilter | String | Null,
+        ?   planoContrato?: StringNullableFilter | String | Null,
+        ?   statusInternet?: IntNullableFilter | Int | Null,
+        ?   valorPlano?: FloatNullableFilter | Float | Null
+          }
+        })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 18:51:24.486 [[31merror[39m]: path: src/models/findById.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findById.js:9:44
+
+  6 async execute(id) {
+  7   try {
+  8     // busca o cliente pelo id
+→ 9     let clientes = await prisma.clientes.findUnique({
+          where: {
+            id: undefined,
+        ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+        ?   OR?: ClientesWhereInput[],
+        ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+        ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+        ?   ipConcentrador?: StringNullableFilter | String | Null,
+        ?   nomeConcentrador?: StringNullableFilter | String | Null,
+        ?   latitudeCliente?: StringNullableFilter | String | Null,
+        ?   longitudeCliente?: StringNullableFilter | String | Null,
+        ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+        ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+        ?   tempoConectado?: IntNullableFilter | Int | Null,
+        ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+        ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+        ?   motivoDesconexao?: StringNullableFilter | String | Null,
+        ?   popCliente?: StringNullableFilter | String | Null,
+        ?   nomeCliente?: StringNullableFilter | String | Null,
+        ?   enderecoCliente?: StringNullableFilter | String | Null,
+        ?   bairroCliente?: StringNullableFilter | String | Null,
+        ?   cidadeCliente?: StringNullableFilter | String | Null,
+        ?   planoContrato?: StringNullableFilter | String | Null,
+        ?   statusInternet?: IntNullableFilter | Int | Null,
+        ?   valorPlano?: FloatNullableFilter | Float | Null
+          }
+        })
+
+Argument `where` of type ClientesWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.
+12/05/2024 18:52:25.757 [[32minfo[39m]: successfully found clients
+12/05/2024 18:52:43.461 [[32minfo[39m]: successfully found clients
+12/05/2024 18:52:50.202 [[32minfo[39m]: successfully found clients
+12/05/2024 18:54:55.594 [[32minfo[39m]: successfully found clients
+12/05/2024 18:54:57.225 [[32minfo[39m]: successfully found clients
+12/05/2024 18:55:46.868 [[32minfo[39m]: successfully found clients
+12/05/2024 18:55:48.096 [[32minfo[39m]: successfully found clients
+12/05/2024 18:55:49.305 [[32minfo[39m]: successfully found clients
+12/05/2024 18:56:03.853 [[32minfo[39m]: successfully found clients
+12/05/2024 18:56:04.964 [[32minfo[39m]: successfully found clients
+12/05/2024 18:56:15.973 [[32minfo[39m]: successfully found clients
+12/05/2024 18:56:31.646 [[32minfo[39m]: successfully found clients
+12/05/2024 18:56:58.772 [[32minfo[39m]: successfully found clients
+12/05/2024 18:57:13.789 [[32minfo[39m]: successfully found clients
+12/05/2024 18:57:15.091 [[32minfo[39m]: successfully found clients
+12/05/2024 18:57:30.263 [[32minfo[39m]: successfully found clients
+12/05/2024 18:57:31.163 [[32minfo[39m]: successfully found clients
+12/05/2024 19:17:10.040 [[32minfo[39m]: successfully found client
+12/05/2024 19:18:04.727 [[32minfo[39m]: successfully found clients
+12/05/2024 19:28:07.535 [[32minfo[39m]: successfully found clients
+12/05/2024 19:28:42.079 [[32minfo[39m]: successfully found clients
+12/05/2024 19:28:50.504 [[32minfo[39m]: successfully found clients
+12/05/2024 19:30:48.002 [[32minfo[39m]: successfully found clients
+12/05/2024 19:30:58.974 [[31merror[39m]: client not found
+12/05/2024 19:31:02.824 [[32minfo[39m]: successfully found client
+12/05/2024 19:33:38.871 [[32minfo[39m]: successfully found clients
+12/05/2024 19:33:44.147 [[32minfo[39m]: successfully found clients
+12/05/2024 19:33:50.834 [[32minfo[39m]: successfully found clients
+12/05/2024 19:33:55.655 [[32minfo[39m]: successfully found clients
+12/05/2024 19:36:25.389 [[32minfo[39m]: successfully found clients
+12/05/2024 19:36:30.537 [[32minfo[39m]: successfully found clients
+12/05/2024 19:36:35.604 [[32minfo[39m]: successfully found clients
+12/05/2024 19:36:43.417 [[32minfo[39m]: successfully found clients
+12/05/2024 19:36:47.808 [[32minfo[39m]: successfully found clients
+12/05/2024 19:37:01.500 [[32minfo[39m]: successfully found clients
+12/05/2024 19:37:04.036 [[32minfo[39m]: successfully found clients
+12/05/2024 19:37:08.618 [[32minfo[39m]: successfully found clients
+12/05/2024 19:37:15.787 [[32minfo[39m]: successfully found clients
+12/05/2024 19:37:43.243 [[32minfo[39m]: successfully found clients
+12/05/2024 21:57:35.620 [[32minfo[39m]: successfully found clients
+12/05/2024 21:57:40.430 [[32minfo[39m]: successfully found clients
+12/05/2024 22:19:18.021 [[31merror[39m]: path: src/controllers/client/findByStatus.js message: Cannot access 'status' before initialization
+12/05/2024 22:19:23.508 [[31merror[39m]: path: src/controllers/client/findByStatus.js message: Cannot access 'status' before initialization
+12/05/2024 22:19:49.335 [[31merror[39m]: path: src/models/findByStatus.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByStatus.js:9:43
+
+  6 module.exports = {
+  7   async execute(status) {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany({
+            where: {
+              statusCliente: {
+                contais: "true",
+                ~~~~~~~
+          ?     equals?: Boolean | BooleanFieldRefInput | Null,
+          ?     not?: Boolean | NestedBoolNullableFilter | Null
+              }
+            }
+          })
+
+Unknown argument `contais`. Available options are marked with ?.
+12/05/2024 22:20:39.958 [[31merror[39m]: path: src/models/findByStatus.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByStatus.js:9:43
+
+  6 module.exports = {
+  7   async execute(status) {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany({
+            where: {
+              statusCliente: "true"
+                             ~~~~~~
+            }
+          })
+
+Argument `statusCliente`: Invalid value provided. Expected BoolNullableFilter, Boolean or Null, provided String.
+12/05/2024 22:21:28.851 [[31merror[39m]: path: src/models/findByStatus.js message: status.toBoolean is not a function
+12/05/2024 22:23:35.978 [[32minfo[39m]: successfully found client
+12/05/2024 22:23:53.178 [[32minfo[39m]: successfully found client
+12/05/2024 22:24:16.259 [[32minfo[39m]: successfully found client
+12/05/2024 22:24:19.034 [[32minfo[39m]: successfully found client
+12/05/2024 22:24:20.922 [[32minfo[39m]: successfully found client
+12/05/2024 22:24:24.081 [[32minfo[39m]: successfully found client
+12/05/2024 22:24:27.621 [[32minfo[39m]: successfully found client
+12/05/2024 22:24:30.909 [[32minfo[39m]: successfully found client
+12/05/2024 22:26:56.202 [[32minfo[39m]: successfully found client
+12/05/2024 23:24:40.778 [[32minfo[39m]: successfully found client
+12/05/2024 23:24:45.330 [[32minfo[39m]: successfully found client
+12/05/2024 23:24:49.059 [[32minfo[39m]: successfully found client
+12/05/2024 23:24:53.208 [[32minfo[39m]: successfully found client
+12/05/2024 23:25:13.837 [[32minfo[39m]: successfully found client
+12/05/2024 23:25:17.938 [[32minfo[39m]: successfully found client
+12/05/2024 23:25:35.366 [[32minfo[39m]: successfully found client
+12/05/2024 23:25:41.934 [[32minfo[39m]: successfully found client
+12/05/2024 23:25:49.463 [[32minfo[39m]: successfully found client
+12/05/2024 23:26:18.660 [[32minfo[39m]: successfully found client
+12/05/2024 23:26:23.157 [[32minfo[39m]: successfully found client
+12/05/2024 23:26:34.593 [[32minfo[39m]: successfully found client
+12/05/2024 23:26:38.190 [[32minfo[39m]: successfully found client
+12/05/2024 23:26:51.137 [[32minfo[39m]: successfully found client
+12/05/2024 23:26:58.128 [[32minfo[39m]: successfully found client
+12/05/2024 23:27:11.856 [[32minfo[39m]: successfully found client
+12/05/2024 23:27:37.359 [[32minfo[39m]: successfully found client
+12/05/2024 23:28:02.590 [[32minfo[39m]: successfully found client
+12/05/2024 23:29:01.224 [[32minfo[39m]: successfully found client
+12/05/2024 23:29:03.991 [[32minfo[39m]: successfully found client
+12/05/2024 23:29:06.595 [[32minfo[39m]: successfully found client
+12/05/2024 23:29:09.613 [[32minfo[39m]: successfully found client
+12/05/2024 23:30:37.062 [[32minfo[39m]: successfully found client
+12/05/2024 23:30:41.972 [[32minfo[39m]: successfully found client
+12/05/2024 23:30:46.513 [[32minfo[39m]: successfully found client
+12/05/2024 23:30:50.016 [[32minfo[39m]: successfully found client
+12/05/2024 23:30:54.705 [[32minfo[39m]: successfully found client
+12/05/2024 23:31:24.722 [[31merror[39m]: path: src/models/findByInternetStatus.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByInternetStatus.js:11:43
+
+   8 async execute(internetStatus) {
+   9   try {
+  10     //const i = parseInt(internetStatus);
+→ 11     let clients = await prisma.clientes.findMany({
+           where: {
+             statusInternet: "3"
+                             ~~~
+           }
+         })
+
+Argument `statusInternet`: Invalid value provided. Expected IntNullableFilter, Int or Null, provided String.
+12/05/2024 23:31:36.625 [[32minfo[39m]: successfully found client
+12/05/2024 23:31:47.253 [[32minfo[39m]: successfully found client
+12/05/2024 23:37:34.173 [[31merror[39m]: path: src/controllers/client/findByInternetStatus.js message: number is not defined
+12/05/2024 23:38:35.705 [[32minfo[39m]: successfully found client
+12/05/2024 23:38:38.533 [[32minfo[39m]: successfully found client
+12/05/2024 23:38:47.884 [[32minfo[39m]: successfully found client
+12/05/2024 23:38:56.229 [[32minfo[39m]: successfully found client
+12/05/2024 23:38:59.797 [[32minfo[39m]: successfully found client
+12/05/2024 23:39:08.527 [[32minfo[39m]: successfully found client
+12/05/2024 23:39:12.345 [[31merror[39m]: status not found
+12/05/2024 23:41:26.402 [[32minfo[39m]: successfully found client
+12/05/2024 23:41:29.678 [[32minfo[39m]: successfully found client
+12/05/2024 23:41:32.525 [[32minfo[39m]: successfully found client
+13/05/2024 00:00:18.505 [[32minfo[39m]: successfully found client
+13/05/2024 00:00:22.179 [[32minfo[39m]: successfully found client
+13/05/2024 00:00:27.716 [[32minfo[39m]: successfully found client
+13/05/2024 00:00:32.084 [[32minfo[39m]: successfully found client
+13/05/2024 00:01:20.935 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:01:56.619 [[32minfo[39m]: successfully found clients
+13/05/2024 00:02:51.051 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:15:45.849 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:15:58.211 [[31merror[39m]: path: src/models/findByConcentrator.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConcentrator.js:8:44
+
+  5 module.exports = {
+  6   async execute(concentrator) {
+  7     try {
+→ 8       let clientes = await prisma.clientes.findUnique({
+            where: {
+              concentrator: "Concentrador_Juerana_A",
+              ~~~~~~~~~~~~
+          ?   id?: String,
+          ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+          ?   OR?: ClientesWhereInput[],
+          ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+          ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+          ?   ipConcentrador?: StringNullableFilter | String | Null,
+          ?   nomeConcentrador?: StringNullableFilter | String | Null,
+          ?   latitudeCliente?: StringNullableFilter | String | Null,
+          ?   longitudeCliente?: StringNullableFilter | String | Null,
+          ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+          ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+          ?   tempoConectado?: IntNullableFilter | Int | Null,
+          ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+          ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+          ?   motivoDesconexao?: StringNullableFilter | String | Null,
+          ?   popCliente?: StringNullableFilter | String | Null,
+          ?   nomeCliente?: StringNullableFilter | String | Null,
+          ?   enderecoCliente?: StringNullableFilter | String | Null,
+          ?   bairroCliente?: StringNullableFilter | String | Null,
+          ?   cidadeCliente?: StringNullableFilter | String | Null,
+          ?   planoContrato?: StringNullableFilter | String | Null,
+          ?   statusInternet?: IntNullableFilter | Int | Null,
+          ?   valorPlano?: FloatNullableFilter | Float | Null
+            }
+          })
+
+Unknown argument `concentrator`. Available options are marked with ?.
+13/05/2024 00:16:17.974 [[31merror[39m]: path: src/models/findByConcentrator.js message: 
+Invalid `prisma.clientes.findUnique()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConcentrator.js:8:44
+
+  5 module.exports = {
+  6   async execute(concentrator) {
+  7     try {
+→ 8       let clientes = await prisma.clientes.findUnique({
+            where: {
+              concentrator: "Concentrador_Juerana_A",
+              ~~~~~~~~~~~~
+          ?   id?: String,
+          ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+          ?   OR?: ClientesWhereInput[],
+          ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+          ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+          ?   ipConcentrador?: StringNullableFilter | String | Null,
+          ?   nomeConcentrador?: StringNullableFilter | String | Null,
+          ?   latitudeCliente?: StringNullableFilter | String | Null,
+          ?   longitudeCliente?: StringNullableFilter | String | Null,
+          ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+          ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+          ?   tempoConectado?: IntNullableFilter | Int | Null,
+          ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+          ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+          ?   motivoDesconexao?: StringNullableFilter | String | Null,
+          ?   popCliente?: StringNullableFilter | String | Null,
+          ?   nomeCliente?: StringNullableFilter | String | Null,
+          ?   enderecoCliente?: StringNullableFilter | String | Null,
+          ?   bairroCliente?: StringNullableFilter | String | Null,
+          ?   cidadeCliente?: StringNullableFilter | String | Null,
+          ?   planoContrato?: StringNullableFilter | String | Null,
+          ?   statusInternet?: IntNullableFilter | Int | Null,
+          ?   valorPlano?: FloatNullableFilter | Float | Null
+            }
+          })
+
+Unknown argument `concentrator`. Available options are marked with ?.
+13/05/2024 00:16:43.730 [[31merror[39m]: path: src/models/findByConcentrator.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConcentrator.js:8:44
+
+  5 module.exports = {
+  6   async execute(concentrator) {
+  7     try {
+→ 8       let clientes = await prisma.clientes.findMany({
+            where: {
+              concentrator: "Concentrador_Juerana_A",
+              ~~~~~~~~~~~~
+          ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+          ?   OR?: ClientesWhereInput[],
+          ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+          ?   id?: StringFilter | String,
+          ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+          ?   ipConcentrador?: StringNullableFilter | String | Null,
+          ?   nomeConcentrador?: StringNullableFilter | String | Null,
+          ?   latitudeCliente?: StringNullableFilter | String | Null,
+          ?   longitudeCliente?: StringNullableFilter | String | Null,
+          ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+          ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+          ?   tempoConectado?: IntNullableFilter | Int | Null,
+          ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+          ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+          ?   motivoDesconexao?: StringNullableFilter | String | Null,
+          ?   popCliente?: StringNullableFilter | String | Null,
+          ?   nomeCliente?: StringNullableFilter | String | Null,
+          ?   enderecoCliente?: StringNullableFilter | String | Null,
+          ?   bairroCliente?: StringNullableFilter | String | Null,
+          ?   cidadeCliente?: StringNullableFilter | String | Null,
+          ?   planoContrato?: StringNullableFilter | String | Null,
+          ?   statusInternet?: IntNullableFilter | Int | Null,
+          ?   valorPlano?: FloatNullableFilter | Float | Null
+            }
+          })
+
+Unknown argument `concentrator`. Available options are marked with ?.
+13/05/2024 00:17:37.800 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:17:44.308 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:18:01.105 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:18:53.282 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:19:18.027 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:19:27.485 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:19:33.850 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:19:39.717 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:19:45.102 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:26:44.815 [[31merror[39m]: path: src/models/findByConcentrator.js message: concentrator.toCapitalize is not a function
+13/05/2024 00:32:02.980 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:32:08.908 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:32:26.316 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:32:32.596 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:32:39.257 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:32:51.813 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:33:05.493 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:38:27.095 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:38:39.193 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:38:49.271 [[32minfo[39m]: successfully found concentrator
+13/05/2024 00:55:47.218 [[32minfo[39m]: successfully found disconnect reason
+13/05/2024 00:56:01.910 [[32minfo[39m]: successfully found disconnect reason
+13/05/2024 00:56:09.715 [[32minfo[39m]: successfully found disconnect reason
+13/05/2024 00:56:12.807 [[32minfo[39m]: successfully found disconnect reason
+13/05/2024 00:56:26.109 [[32minfo[39m]: successfully found disconnect reason
+13/05/2024 00:56:33.455 [[32minfo[39m]: successfully found disconnect reason
+13/05/2024 09:50:50.295 [[32minfo[39m]: successfully found clients
+13/05/2024 09:57:45.214 [[32minfo[39m]: successfully found clients
+13/05/2024 10:09:26.204 [[32minfo[39m]: successfully found clients
+13/05/2024 10:15:47.984 [[32minfo[39m]: successfully found clients
+13/05/2024 10:17:24.924 [[31merror[39m]: path: src/controllers/client/findByPop.js message: loggeer is not defined
+13/05/2024 10:18:00.938 [[32minfo[39m]: successfully found pop
+13/05/2024 10:18:14.627 [[32minfo[39m]: successfully found pop
+13/05/2024 10:18:18.438 [[32minfo[39m]: successfully found pop
+13/05/2024 10:18:35.605 [[32minfo[39m]: successfully found pop
+13/05/2024 10:19:09.130 [[32minfo[39m]: successfully found pop
+13/05/2024 10:19:15.195 [[32minfo[39m]: successfully found pop
+13/05/2024 20:40:38.740 [[32minfo[39m]: successfully found city
+13/05/2024 20:40:44.950 [[32minfo[39m]: successfully found city
+13/05/2024 20:40:47.670 [[32minfo[39m]: successfully found city
+13/05/2024 21:03:53.355 [[32minfo[39m]: successfully found neighborhood
+13/05/2024 21:06:48.393 [[32minfo[39m]: successfully found neighborhood
+13/05/2024 21:17:22.065 [[31merror[39m]: path: src/models/findByContractPlan.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByContractPlan.js:8:43
+
+  5 module.exports = {
+  6   async execute(plan) {
+  7     try {
+→ 8       let clients = await prisma.clientes.findMany({
+            where: {
+              planoCliente: {
+              ~~~~~~~~~~~~
+                contains: "40 MB"
+              },
+          ?   AND?: ClientesWhereInput | ClientesWhereInput[],
+          ?   OR?: ClientesWhereInput[],
+          ?   NOT?: ClientesWhereInput | ClientesWhereInput[],
+          ?   id?: StringFilter | String,
+          ?   statusCliente?: BoolNullableFilter | Boolean | Null,
+          ?   ipConcentrador?: StringNullableFilter | String | Null,
+          ?   nomeConcentrador?: StringNullableFilter | String | Null,
+          ?   latitudeCliente?: StringNullableFilter | String | Null,
+          ?   longitudeCliente?: StringNullableFilter | String | Null,
+          ?   conexaoInicial?: DateTimeNullableFilter | DateTime | Null,
+          ?   conexaoFinal?: DateTimeNullableFilter | DateTime | Null,
+          ?   tempoConectado?: IntNullableFilter | Int | Null,
+          ?   consumoDownload?: BigIntNullableFilter | BigInt | Null,
+          ?   consumoUpload?: BigIntNullableFilter | BigInt | Null,
+          ?   motivoDesconexao?: StringNullableFilter | String | Null,
+          ?   popCliente?: StringNullableFilter | String | Null,
+          ?   nomeCliente?: StringNullableFilter | String | Null,
+          ?   enderecoCliente?: StringNullableFilter | String | Null,
+          ?   bairroCliente?: StringNullableFilter | String | Null,
+          ?   cidadeCliente?: StringNullableFilter | String | Null,
+          ?   planoContrato?: StringNullableFilter | String | Null,
+          ?   statusInternet?: IntNullableFilter | Int | Null,
+          ?   valorPlano?: FloatNullableFilter | Float | Null
+            }
+          })
+
+Unknown argument `planoCliente`. Available options are marked with ?.
+13/05/2024 21:17:52.551 [[32minfo[39m]: successfully found contract plan
+13/05/2024 23:16:14.557 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:16:56.288 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:17:00.687 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:17:17.560 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:18:40.574 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:21:55.549 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:21:57.333 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:23:51.996 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:27:56.903 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:28:05.846 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:28:23.962 [[32minfo[39m]: Received request with startDate: 2023-1-07T18:42:39.000Z and endDate: 2024-12-07T18:42:39.000Z
+13/05/2024 23:28:24.030 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:29:04.832 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:29:13.863 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:31:52.131 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:32:13.346 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:32:14.242 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:32:42.070 [[32minfo[39m]: successfully found clients
+13/05/2024 23:32:47.099 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:38:08.938 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:43:47.446 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:48:32.759 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:48:33.937 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:51:10.468 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:51:45.269 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:52:17.619 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:54:28.503 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:55:03.809 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:55:04.779 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:55:05.386 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:55:33.551 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:55:34.447 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:55:50.025 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:56:10.795 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:56:23.249 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:56:24.370 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+13/05/2024 23:56:35.732 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:02:24.106 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:02:24.910 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:02:54.512 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:04:34.099 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:04:53.608 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:07.885 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:08.894 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:09.885 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:10.739 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:12.758 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:34.002 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:35.729 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:36.353 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:36.802 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:37.299 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:37.814 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:28:38.368 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:29:12.448 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:29:13.917 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:29:21.301 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: Failed to fetch clients by datetime range
+14/05/2024 00:32:20.987 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:32:31.150 [[31merror[39m]: path: src/controllers/client/findByDateTime.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:34:28.616 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:35:08.372 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:35:09.786 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:35:10.730 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:35:11.406 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:35:12.491 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:35:13.620 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:35:46.198 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:35:47.315 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:36:54.659 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:37:18.941 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:37:20.168 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:37:20.958 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:37:46.625 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:37:56.546 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:38:05.134 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:38:10.108 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:38:10.798 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:38:11.333 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:38:11.690 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:39:37.358 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectionStart.js:9:45
+
+  6 async execute(startDate, endDate) {
+  7 try {
+  8     //let clients = await prisma.$queryRaw$(`SELECT * FROM clientes WHERE conexaoInicial >= '2024-05-03'`);
+→ 9     const clients = await prisma.clientes.findMany({
+          where: {
+            conexaoInicial: {
+              gt: "2024-05-03",
+                  ~~~~~~~~~~~~
+              lt: "2024-05-08"
+            }
+          }
+        })
+
+Invalid value for argument `gt`: premature end of input. Expected ISO-8601 DateTime.
+14/05/2024 00:39:49.975 [[31merror[39m]: path: src/models/findByConnectionStart.js message: Cannot read properties of undefined (reading 'findMany')
+14/05/2024 00:40:05.200 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectionStart.js:9:45
+
+  6 async execute(startDate, endDate) {
+  7 try {
+  8     //let clients = await prisma.$queryRaw$(`SELECT * FROM clientes WHERE conexaoInicial >= '2024-05-03'`);
+→ 9     const clients = await prisma.clientes.findMany({
+          where: {
+            conexaoInicial: {
+              gt: "2024-05-03",
+                  ~~~~~~~~~~~~
+              lt: "2024-05-08"
+            }
+          }
+        })
+
+Invalid value for argument `gt`: premature end of input. Expected ISO-8601 DateTime.
+14/05/2024 00:40:20.351 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectionStart.js:9:43
+
+  6 async execute(startDate, endDate) {
+  7 try {
+  8     //let clients = await prisma.$queryRaw$(`SELECT * FROM clientes WHERE conexaoInicial >= '2024-05-03'`);
+→ 9     let clients = await prisma.clientes.findMany({
+          where: {
+            conexaoInicial: {
+              gt: "2024-05-03",
+                  ~~~~~~~~~~~~
+              lt: "2024-05-08"
+            }
+          }
+        })
+
+Invalid value for argument `gt`: premature end of input. Expected ISO-8601 DateTime.
+14/05/2024 00:40:35.614 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectionStart.js:9:43
+
+  6 async execute(startDate, endDate) {
+  7 try {
+  8     //let clients = await prisma.$queryRaw$(`SELECT * FROM clientes WHERE conexaoInicial >= '2024-05-03'`);
+→ 9     let clients = await prisma.clientes.findMany({
+          where: {
+            conexaoInicial: {
+              gte: "2024-05-03",
+                   ~~~~~~~~~~~~
+              lte: "2024-05-08"
+            }
+          }
+        })
+
+Invalid value for argument `gte`: premature end of input. Expected ISO-8601 DateTime.
+14/05/2024 00:40:48.668 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectionStart.js:9:43
+
+  6 async execute(startDate, endDate) {
+  7 try {
+  8     //let clients = await prisma.$queryRaw$(`SELECT * FROM clientes WHERE conexaoInicial >= '2024-05-03'`);
+→ 9     let clients = await prisma.clientes.findMany({
+          where: {
+            conexaoInicial: {
+              gt: "2024-05-03",
+                  ~~~~~~~~~~~~
+              lt: "2024-05-08"
+            }
+          }
+        })
+
+Invalid value for argument `gt`: premature end of input. Expected ISO-8601 DateTime.
+14/05/2024 00:41:47.743 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.clientes.$queryRaw$ is not a function
+14/05/2024 00:42:06.149 [[31merror[39m]: path: src/models/findByConnectionStart.js message: prisma.$queryRaw$ is not a function
+14/05/2024 00:42:35.041 [[31merror[39m]: path: src/models/findByConnectionStart.js message: `$queryRaw` is a tag function, please use it like the following:
+```
+const result = await prisma.$queryRaw`SELECT * FROM User WHERE id = ${1} OR email = ${'user@email.com'};`
+```
+
+Or read our docs at https://www.prisma.io/docs/concepts/components/prisma-client/raw-database-access#queryraw
+
+14/05/2024 00:43:37.131 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42703`. Message: `não existe a coluna "conexaoinicial"`
+14/05/2024 00:43:55.808 [[32minfo[39m]: successfully found datetime range
+14/05/2024 00:44:32.586 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERRO: operador não existe: timestamp without time zone >= text
+HINT: Nenhum operador corresponde ao nome e tipo de dados dos argumentos fornecidos. Talvez seja necessário adicionar uma conversão de tipo de dados explícita.`
+14/05/2024 00:44:38.864 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42601`. Message: `ERRO: erro de sintaxe em ou próximo a "{"`
+14/05/2024 00:44:49.961 [[32minfo[39m]: successfully found datetime range
+14/05/2024 00:45:18.022 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42601`. Message: `ERRO: erro de sintaxe em ou próximo a "and"`
+14/05/2024 00:45:33.916 [[32minfo[39m]: successfully found datetime range
+14/05/2024 00:47:07.272 [[32minfo[39m]: successfully found datetime range
+14/05/2024 00:47:32.277 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `22007`. Message: `ERRO: sintaxe de entrada é inválida para tipo timestamp: "$1"`
+14/05/2024 00:48:16.763 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERRO: operador não existe: timestamp without time zone < text
+HINT: Nenhum operador corresponde ao nome e tipo de dados dos argumentos fornecidos. Talvez seja necessário adicionar uma conversão de tipo de dados explícita.`
+14/05/2024 00:48:41.561 [[31merror[39m]: path: src/models/findByConnectionStart.js message: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERRO: operador não existe: timestamp without time zone < text
+HINT: Nenhum operador corresponde ao nome e tipo de dados dos argumentos fornecidos. Talvez seja necessário adicionar uma conversão de tipo de dados explícita.`
+14/05/2024 00:49:44.590 [[32minfo[39m]: successfully found datetime range
+14/05/2024 00:51:09.159 [[32minfo[39m]: successfully found datetime range
+14/05/2024 00:51:15.439 [[32minfo[39m]: successfully found datetime range
+14/05/2024 00:54:23.433 [[32minfo[39m]: successfully found datetime range
+14/05/2024 00:56:16.440 [[32minfo[39m]: successfully found datetime range
+14/05/2024 01:44:24.076 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:8:43
+
+  5 module.exports = {
+  6   async execute( choice, duration) {
+  7     try {
+→ 8       let clients = await prisma.clientes.findMany({
+            where: {
+              tempoConectado: {
+                gt: "66493"
+                    ~~~~~~~
+              }
+            }
+          })
+
+Argument `gt`: Invalid value provided. Expected Int or IntFieldRefInput, provided String.
+14/05/2024 01:44:54.368 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 01:49:28.333 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 01:49:41.683 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 01:50:02.069 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 01:50:04.290 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 01:50:09.545 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 01:51:08.267 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 01:51:46.634 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 02:00:55.646 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:00:58.053 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:00:58.856 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:00:59.194 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:00:59.522 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:01:10.112 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:01:12.817 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:02:11.822 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:02:33.539 [[31merror[39m]: path: src/models/findByConnectedTime.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConnectedTime.js:9:45
+
+  6 async execute( choice, duration) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany(
+Error occurred during query execution:
+ConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(0), cause: Some(Error { kind: ConversionError("Unable to fit integer value '18315384028' into an INT4 (32-bit signed integer)."), original_code: None, original_message: None }) }), transient: false })
+14/05/2024 02:03:03.362 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 02:03:26.753 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:03:42.216 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:03:55.931 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:04:05.905 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:04:06.715 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:04:07.506 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:04:08.247 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:04:58.811 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:05:21.828 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:12:34.087 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConsumption.js:33:45
+
+  30   
+  31 } else {
+  32   try {
+→ 33     let clients = await prisma.clientes.findMany({
+           where: {
+             consumoDownload: {
+         +     lte: BigInt
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:12:58.579 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConsumption.js:33:45
+
+  30   
+  31 } else {
+  32   try {
+→ 33     let clients = await prisma.clientes.findMany({
+           where: {
+             consumoDownload: {
+         +     lte: BigInt
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:12:59.481 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConsumption.js:33:45
+
+  30   
+  31 } else {
+  32   try {
+→ 33     let clients = await prisma.clientes.findMany({
+           where: {
+             consumoDownload: {
+         +     lte: BigInt
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:13:25.910 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConsumption.js:33:45
+
+  30   
+  31 } else {
+  32   try {
+→ 33     let clients = await prisma.clientes.findMany({
+           where: {
+             consumoUpload: {
+         +     lte: BigInt
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:14:32.315 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: column is not defined
+14/05/2024 02:15:03.576 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: column is not defined
+14/05/2024 02:15:04.759 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: column is not defined
+14/05/2024 02:15:54.500 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByConsumption.js:38:45
+
+  35   
+  36 } else {
+  37   try {
+→ 38     let clients = await prisma.clientes.findMany({
+           where: {
+             consumoUpload: {
+         +     lte: BigInt
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:18:14.161 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:18:25.164 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:18:32.389 [[32minfo[39m]: successfully found clients by download consumption
+14/05/2024 02:29:00.268 [[32minfo[39m]: successfully found clients by upload consumption
+14/05/2024 02:29:14.787 [[32minfo[39m]: successfully found clients by upload consumption
+14/05/2024 02:36:24.653 [[31merror[39m]: path: src/models/findByPlanValue.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29 
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:38:28.955 [[32minfo[39m]: successfully found clients by upload consumption
+14/05/2024 02:39:03.442 [[31merror[39m]: path: src/models/findByPlanValue.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:9:45
+
+  6 async execute( choice, consumption) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany({
+            where: {
+              valorPlano: {
+          +     gte: Float
+              }
+            }
+          })
+
+Argument `gte` is missing.
+14/05/2024 02:39:17.460 [[31merror[39m]: path: src/models/findByPlanValue.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:9:45
+
+  6 async execute( choice, consumption) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany({
+            where: {
+              valorPlano: {
+          +     gte: Float
+              }
+            }
+          })
+
+Argument `gte` is missing.
+14/05/2024 02:40:06.574 [[31merror[39m]: path: src/models/findByPlanValue.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29 
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:40:19.707 [[31merror[39m]: path: src/models/findByPlanValue.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29 
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lt: Float
+             }
+           }
+         })
+
+Argument `lt` is missing.
+14/05/2024 02:40:39.199 [[31merror[39m]: path: src/models/findByPlanValue.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29 
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lt: Float
+             }
+           }
+         })
+
+Argument `lt` is missing.
+14/05/2024 02:40:47.448 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             consumoDownload: {
+         +     lte: BigInt
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:25.477 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:29.204 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:52.143 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:53.709 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:54.374 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:54.944 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:55.407 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:55.899 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:41:56.330 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lte: Float
+             }
+           }
+         })
+
+Argument `lte` is missing.
+14/05/2024 02:42:08.551 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:32:45
+
+  29   
+  30 } else {
+  31   try {
+→ 32     let clients = await prisma.clientes.findMany({
+           where: {
+             valorPlano: {
+         +     lt: Float
+             }
+           }
+         })
+
+Argument `lt` is missing.
+14/05/2024 02:42:31.408 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:9:45
+
+  6 async execute( choice, consumption) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany({
+            where: {
+              valorPlano: {
+          +     gt: Float
+              }
+            }
+          })
+
+Argument `gt` is missing.
+14/05/2024 02:42:55.898 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.clientes.findMany()` invocation in
+D:\codar\desafio-cactus\backend\src\models\findByPlanValue.js:9:45
+
+  6 async execute( choice, consumption) {
+  7   if(choice === "gt") {
+  8     try {
+→ 9       let clients = await prisma.clientes.findMany({
+            where: {
+              valorPlano: {
+          +     gt: Float
+              }
+            }
+          })
+
+Argument `gt` is missing.
+14/05/2024 02:49:28.304 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:49:36.533 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:49:38.915 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:50:46.211 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:51:19.601 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:51:31.720 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:52:16.930 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:52:18.115 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:52:37.771 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:54:09.127 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:54:43.998 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:54:44.928 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:54:47.795 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:55:00.761 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:55:01.755 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:55:47.040 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:55:51.641 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:56:05.463 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:56:11.566 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:56:12.755 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:56:13.631 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:56:14.142 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:57:28.433 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:58:26.625 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:58:34.973 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 02:58:42.163 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:00:24.732 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:00:26.187 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:00:50.742 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:00:51.670 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:00:52.735 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:00:57.049 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:01:22.903 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:01:42.574 [[31merror[39m]: path: src/models/findByDownloadConsumption.js message: 
+Invalid `prisma.$queryRaw()` invocation:
+
+
+Raw query failed. Code: `42883`. Message: `ERRO: operador não existe: double precision >= text
+HINT: Nenhum operador corresponde ao nome e tipo de dados dos argumentos fornecidos. Talvez seja necessário adicionar uma conversão de tipo de dados explícita.`
+14/05/2024 03:02:48.911 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:03:29.538 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:04:05.382 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:04:38.851 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:04:50.281 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:05:05.826 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:05:13.483 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:05:26.115 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:05:40.686 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 03:18:02.841 [[32minfo[39m]: successfully found client
+14/05/2024 03:18:41.720 [[32minfo[39m]: successfully found clients
+14/05/2024 03:18:43.397 [[32minfo[39m]: successfully found clients
+14/05/2024 03:19:02.228 [[32minfo[39m]: successfully found clients
+14/05/2024 03:19:33.905 [[32minfo[39m]: successfully found clients
+14/05/2024 03:19:58.865 [[32minfo[39m]: successfully deleted client
+14/05/2024 03:20:08.255 [[31merror[39m]: client not found
+14/05/2024 09:03:06.613 [[31merror[39m]: path: src/models/deleteClient.js message: client not found
+14/05/2024 09:29:36.272 [[32minfo[39m]: successfully found clients by connected time
+14/05/2024 09:30:43.274 [[32minfo[39m]: successfully found clients
+14/05/2024 09:30:45.456 [[32minfo[39m]: successfully found clients
+14/05/2024 09:30:59.762 [[32minfo[39m]: successfully found clients
+14/05/2024 09:31:18.401 [[31merror[39m]: path: src/models/deleteClient.js message: client not found
+14/05/2024 09:31:26.109 [[32minfo[39m]: successfully found clients
+14/05/2024 10:51:21.770 [[31merror[39m]: client not found
+14/05/2024 10:51:29.170 [[32minfo[39m]: successfully found client
+14/05/2024 10:54:00.716 [[32minfo[39m]: successfully found client
+14/05/2024 10:54:01.495 [[32minfo[39m]: successfully found client
+14/05/2024 10:55:44.998 [[32minfo[39m]: successfully updated client
+14/05/2024 10:55:56.366 [[32minfo[39m]: successfully found client
+14/05/2024 10:57:22.035 [[32minfo[39m]: successfully updated client
+14/05/2024 10:57:29.274 [[32minfo[39m]: successfully found client
+14/05/2024 10:59:21.934 [[31merror[39m]: path: no path message: Expected double-quoted property name in JSON at position 106
+14/05/2024 10:59:30.377 [[32minfo[39m]: successfully updated client
+14/05/2024 10:59:34.084 [[32minfo[39m]: successfully found client
+14/05/2024 11:03:10.611 [[32minfo[39m]: successfully updated client
+14/05/2024 11:03:16.950 [[32minfo[39m]: successfully found client
+14/05/2024 11:03:30.834 [[31merror[39m]: path: no path message: Expected double-quoted property name in JSON at position 140
+14/05/2024 11:03:37.281 [[31merror[39m]: path: src/models/updateClient.js message: 
+Invalid `prisma.clientes.update()` invocation in
+D:\codar\desafio-cactus\backend\src\models\updateClient.js:18:29
+
+  15   throw new Error('client not found');
+  16 }
+  17 
+→ 18 await prisma.clientes.update({
+       where: {
+         id: "ee62b9b4-f407-4e81-b997-85f14d83dc53"
+       },
+       data: {
+         valorPlano: 59.9,
+         statusInternet: 5,
+         planoContrato: "40 MB Internet Fibra",
+         conexaoInicial: "2024-05-08"
+                         ~~~~~~~~~~~~
+       }
+     })
+
+Invalid value for argument `conexaoInicial`: premature end of input. Expected ISO-8601 DateTime.
+14/05/2024 11:03:41.333 [[31merror[39m]: path: no path message: Expected double-quoted property name in JSON at position 158
+14/05/2024 11:04:45.368 [[32minfo[39m]: successfully updated client
+14/05/2024 11:04:48.204 [[32minfo[39m]: successfully found client
+14/05/2024 11:09:15.144 [[32minfo[39m]: successfully found client
+14/05/2024 11:47:52.741 [[32minfo[39m]: successfully found client
+14/05/2024 19:36:58.653 [[31merror[39m]: path: src/models/deleteClient.js message: client not found
+14/05/2024 19:38:34.293 [[32minfo[39m]: successfully found client
+14/05/2024 19:38:59.110 [[32minfo[39m]: successfully found client
+14/05/2024 19:39:04.734 [[32minfo[39m]: successfully found client
+14/05/2024 19:40:11.077 [[32minfo[39m]: successfully updated client
+14/05/2024 20:20:42.660 [[32minfo[39m]: successfully found client
+14/05/2024 20:22:23.368 [[32minfo[39m]: successfully found client
+14/05/2024 20:22:31.918 [[32minfo[39m]: successfully found client
+14/05/2024 20:23:36.047 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 20:23:46.779 [[32minfo[39m]: successfully found clients by plan value
+14/05/2024 20:24:10.813 [[32minfo[39m]: successfully found clients
+14/05/2024 20:25:04.838 [[32minfo[39m]: successfully deleted client
+14/05/2024 20:25:10.603 [[31merror[39m]: path: src/models/deleteClient.js message: client not found
+14/05/2024 20:25:21.141 [[32minfo[39m]: successfully found clients
+14/05/2024 20:46:01.734 [[31merror[39m]: path: src/models/deleteClient.js message: client not found
+14/05/2024 20:50:16.203 [[31merror[39m]: path: no path message: Unexpected token 'e', ..."nicial": new Date('2"... is not valid JSON
+14/05/2024 20:51:03.718 [[31merror[39m]: path: no path message: Expected ',' or '}' after property value in JSON at position 304
+14/05/2024 20:52:07.177 [[31merror[39m]: path: src/models/deleteClient.js message: client not found
+14/05/2024 20:53:34.308 [[31merror[39m]: path: src/controllers/client/createClient.js message: newClient.newClient is not a function
+14/05/2024 20:54:07.688 [[31merror[39m]: path: src/controllers/client/createClient.js message: newClient.newClient is not a function
+14/05/2024 20:54:48.695 [[31merror[39m]: path: src/models/createClient.js message: 
+Invalid `prisma.clientes.create()` invocation in
+D:\codar\desafio-cactus\backend\src\models\newClient.js:9:29
+
+  6 module.exports = {
+  7   async execute(data){
+  8     try {
+→ 9       await prisma.clientes.create({
+            data: {
+              id: "29ba742c-f0b0-4a9e-8a03-e2a2db3284e9",
+              statusCliente: true,
+              ipConcentrador: "192.168.1.10",
+              nomeConcentrador: "Concentrador A",
+              latitudeCliente: "40.7128",
+              longitudeCliente: "-74.0060",
+              conexaoInicial: "2024-05-14 10:00:00",
+                              ~~~~~~~~~~~~~~~~~~~~~
+              tempoConectado: 120,
+              consumoDownload: "1024000",
+              consumoUpload: "512000",
+              motivoDesconexao: "Client disconnected due to maintenance",
+              popCliente: "POP Central",
+              nomeCliente: "John Doe",
+              bairroCliente: "Downtown",
+              cidadeCliente: "New York",
+              planoContrato: "Premium Plan",
+              statusInternet: 1,
+              valorPlano: 99.99
+            }
+          })
+
+Invalid value for argument `conexaoInicial`: input contains invalid characters. Expected ISO-8601 DateTime.
+14/05/2024 20:55:39.922 [[31merror[39m]: path: src/models/createClient.js message: logger is not defined
+14/05/2024 20:56:56.581 [[31merror[39m]: path: src/models/createClient.js message: 
+Invalid `prisma.clientes.create()` invocation in
+D:\codar\desafio-cactus\backend\src\models\newClient.js:9:29
+
+  6 module.exports = {
+  7   async execute(data){
+  8     try {
+→ 9       await prisma.clientes.create(
+Unique constraint failed on the fields: (`id`)
+14/05/2024 20:57:18.808 [[32minfo[39m]: successfully deleted client
+14/05/2024 20:57:21.902 [[31merror[39m]: path: src/models/deleteClient.js message: client not found
+14/05/2024 20:57:32.827 [[31merror[39m]: client not found
+14/05/2024 20:57:32.829 [[32minfo[39m]: successfully found client
+14/05/2024 20:57:32.829 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Cannot set headers after they are sent to the client
+14/05/2024 20:57:57.365 [[31merror[39m]: path: src/models/createClient.js message: res is not defined
+14/05/2024 20:58:00.186 [[32minfo[39m]: successfully found client
+14/05/2024 20:58:13.697 [[32minfo[39m]: successfully deleted client
+14/05/2024 20:58:54.030 [[32minfo[39m]: successfully found clients
+14/05/2024 20:59:10.617 [[31merror[39m]: path: src/models/createClient.js message: res is not defined
+14/05/2024 20:59:30.704 [[32minfo[39m]: successfully found clients
+14/05/2024 20:59:58.704 [[32minfo[39m]: successfully found client
+14/05/2024 21:00:20.289 [[32minfo[39m]: successfully deleted client
+14/05/2024 21:00:24.045 [[31merror[39m]: client not found
+14/05/2024 21:00:24.046 [[32minfo[39m]: successfully found client
+14/05/2024 21:00:24.047 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Cannot set headers after they are sent to the client
+14/05/2024 21:00:27.897 [[31merror[39m]: path: src/models/createClient.js message: res is not defined
+14/05/2024 21:01:30.058 [[31merror[39m]: client not found
+14/05/2024 21:01:30.063 [[32minfo[39m]: successfully found client
+14/05/2024 21:01:30.065 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Cannot set headers after they are sent to the client
+14/05/2024 21:01:45.763 [[31merror[39m]: client not found
+14/05/2024 21:01:45.764 [[32minfo[39m]: successfully found client
+14/05/2024 21:01:45.766 [[31merror[39m]: path: src/controllers/client/findByIdClientesController.js message: Cannot set headers after they are sent to the client
+14/05/2024 21:02:50.407 [[31merror[39m]: client not found
+14/05/2024 21:02:50.409 [[32minfo[39m]: successfully found client
+14/05/2024 21:02:59.496 [[31merror[39m]: client not found
+14/05/2024 21:02:59.496 [[32minfo[39m]: successfully found client
+14/05/2024 21:04:10.417 [[31merror[39m]: path: src/models/findById.js message: client not found

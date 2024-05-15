@@ -21,7 +21,8 @@ const findByPlanValueController = require("./controllers/client/findByPlanValue"
 const deleteClientController = require("./controllers/client/deleteClient");
 //update
 const updateClientController = require("./controllers/client/updateClient");
-
+//create
+const newClientController = require("./controllers/client/newClient");
 
 
 const routes = Router();
@@ -67,5 +68,8 @@ routes.delete("/deleteClient/:id", deleteClientController.handle);
   //update
 //rota para atualizar cliente baseado no id
 routes.patch("/updateClient/:id", updateClientController.handle);
+  //create
+//rota para criar cliente
+routes.post("/newClient/", newClientController.handle);
 
 module.exports = routes;

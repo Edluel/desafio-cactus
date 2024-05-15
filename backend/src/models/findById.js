@@ -11,6 +11,10 @@ module.exports = {
           id, // id do cliente
         },
       });
+
+      if (!clientes) {
+        throw new Error('client not found');
+      }
       // converte os valores bigint para string
       clientes = JSON.stringify(clientes, (key, value) =>
         typeof value === "bigint" ? value.toString() : value
