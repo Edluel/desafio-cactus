@@ -1,0 +1,10 @@
+.topbar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+  width: 60vw;
+}
+.topbar button {
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=topbar.css.map */

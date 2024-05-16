@@ -1,0 +1,70 @@
+@import '../../styles/variables';
+
+.client-container {
+  display: flex;
+  flex-direction: column;
+}
+.client-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80vw;
+  align-items: center;
+  padding: 10px;
+  background-color: $alabaster;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  justify-content: space-between;
+
+  &-id{
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    background-color: $alabaster;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  h3{
+    width: 100%;
+    padding-bottom: 14px;
+  }
+  p {
+    background-color: $white; // Adiciona uma cor de fundo para cada bloco de informação
+    padding: 5px 10px; // Adiciona um preenchimento para espaçamento interno
+    border-radius: 5px; // Borda arredondada para os blocos de informação
+    margin-bottom: 5px; // Espaçamento entre os blocos de informação
+  
+  }
+  
+
+  h3, p{
+    white-space: nowrap;
+    margin: 0;
+    a {
+      padding-left: 1rem;
+      padding-right: rem;
+      text-decoration: underline;
+      color: black;
+      cursor: pointer;
+    }
+  }
+  margin-bottom: 1rem;
+}
+
+.counters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counters p {
+  font-size: 12px !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+
+}

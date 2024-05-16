@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+.client-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80vw;
+  align-items: center;
+  padding: 10px;
+  background-color: hsl(231, 100%, 99%);
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.client-card-id {
+  cursor: pointer;
+  width: 100%;
+  text-align: right;
+  background-color: hsl(231, 100%, 99%);
+}
+.client-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.client-card h3 {
+  width: 100%;
+  padding-bottom: 14px;
+}
+.client-card p {
+  background-color: hsl(0, 0%, 97%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.client-card h3, .client-card p {
+  white-space: nowrap;
+  margin: 0;
+}
+.client-card h3 a, .client-card p a {
+  padding-left: 1rem;
+  padding-right: rem;
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+
+.counters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counters p {
+  font-size: 12px !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}/*# sourceMappingURL=client.css.map */

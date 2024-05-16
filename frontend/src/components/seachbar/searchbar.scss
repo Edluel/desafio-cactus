@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
+  input {
+    width: 200px;
+    padding: 4px 9px 4px 9px;
+
+    @media ( min-width: 444px ) { width: 300px; };
+  }
+
+  input, select, button { 
+    border-radius: 10px; 
+    background-color: $magnolia;
+  }
+
+  select, button {
+    cursor: pointer; 
+  }
+
+}

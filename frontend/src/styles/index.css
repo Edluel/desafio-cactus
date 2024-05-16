@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+body h1, body h2, body h3, body a, body p, body button {
+  font-family: "Ubuntu", sans-serif;
+}/*# sourceMappingURL=index.css.map */

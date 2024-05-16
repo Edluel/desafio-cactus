@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+.search-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.search-container input {
+  width: 200px;
+  padding: 4px 9px 4px 9px;
+}
+@media (min-width: 444px) {
+  .search-container input {
+    width: 300px;
+  }
+}
+.search-container input, .search-container select, .search-container button {
+  border-radius: 10px;
+  background-color: hsl(217, 100%, 97%);
+}
+.search-container select, .search-container button {
+  cursor: pointer;
+}/*# sourceMappingURL=searchbar.css.map */

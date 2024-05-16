@@ -1,0 +1,28 @@
+@import '../../styles/variables';
+
+.header {
+  background-color: $magnolia;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 20px;
+
+  &-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    right: 5rem;
+    transform: translateX(-1rem);
+    a {
+      padding-left: 1rem;
+      padding-right: rem;
+      text-decoration: underline;
+      color: black;
+      cursor: pointer;
+    }
+  }
+}

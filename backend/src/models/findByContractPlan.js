@@ -5,10 +5,11 @@ const prisma = new PrismaClient();
 module.exports = {
   async execute(plan) {
     try {
+      const capitalizedPlan = plan.charAt(0).toUpperCase() + plan.slice(1);
       let clients = await prisma.clientes.findMany({
         where: {
           planoContrato: {
-            contains: plan,
+            contains: capitalizedPlan,
           },
         },
       });
